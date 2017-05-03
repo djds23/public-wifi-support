@@ -1,6 +1,6 @@
 body {
-  background-color: #fbc547;
-  color: #333;
+  background-color: #D0EFA2;
+  color: #0E486A;
   font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
     "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
     "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
@@ -9,16 +9,14 @@ body {
   text-align: center;
 }
 
-a {
-  color: rgba(#000, 0.7);
-
-  &:focus,
-  &:hover {
-    color: rgba(#000, 0.6);
-  }
-}
-
-.middleman-logo {
+.logo {
   margin-bottom: 1rem;
-  width: 10rem;
+  width: 16rem;
+  border-radius: 12px;
 }
+
+.description {
+  width: 100%;
+}
+
+
