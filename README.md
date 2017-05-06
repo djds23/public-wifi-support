@@ -2,5 +2,5 @@
 
 TODO:
 
-- [ ] add app store link when ready
 - [ ] add links for about/homepage
+- [ ] remove PNG, use svg instead
