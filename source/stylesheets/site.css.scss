@@ -8,11 +8,27 @@ body {
     "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
     "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
     "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
 }
 
 .header {
   background-color: $darkBlue;
   color: $seaFoamLight;
+  height: 36px;
+}
+
+.item {
+  text-decoration: none;
+  padding: 8px;
+  color: $seaFoamLight;
+}
+
+.no-highlight {
+  text-decoration: none;
+  color: inherit;
 }
 
 .main {
@@ -20,7 +36,6 @@ body {
   text-align: center;
   padding: 2vh 1rem;
 }
-
 
 .logo {
   margin-bottom: 1rem;
