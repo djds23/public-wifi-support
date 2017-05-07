@@ -1,12 +1,40 @@
+$seaFoamLight: #D0EFA2;
+$darkBlue: #0E486A;
+
 body {
-  background-color: #D0EFA2;
-  color: #0E486A;
+  background-color: $seaFoamLight;
+  color: $darkBlue;
   font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
     "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
     "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
     "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
-  padding: 2vh 1rem;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+.header {
+  background-color: $darkBlue;
+  color: $seaFoamLight;
+  height: 36px;
+}
+
+.item {
+  text-decoration: none;
+  padding: 8px;
+  color: $seaFoamLight;
+}
+
+.no-highlight {
+  text-decoration: none;
+  color: inherit;
+}
+
+.main {
+  width: 100%;
   text-align: center;
+  padding: 2vh 1rem;
 }
 
 .logo {
