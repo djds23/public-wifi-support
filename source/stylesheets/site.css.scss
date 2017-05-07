@@ -37,10 +37,10 @@ body {
   padding-top: 2vh;
 }
 
+$logoSize: 256px;
 .center-logo {
-  margin-bottom: 1rem;
-  width: 16rem;
-  border-radius: 12px;
+  width: $logoSize;
+  border-radius: $logoSize * (10 / 57);
 }
 
 .description {
